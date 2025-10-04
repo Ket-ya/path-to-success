@@ -24,12 +24,12 @@ Nav h2{
     font-size: 1.5em;
 }
 
-.menu{
+div.menu{
     background-color: #E9BB57;
 
 }
 
-.menu ul{
+div.menu ul{
     background-color: #ffff;
     color: #484FB7
 }
