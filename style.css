@@ -1,12 +1,12 @@
 @import url(https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kavoon&display=swap);
 
 h1{
-    font-family: kavoon;
+    font-family: "Kavoon";
     font-size: 3em;
 }
 
 h2{
-    font-family: kavoon;
+    font-family: "Kavoon";
     font-size: 2em;
 }
 
@@ -22,4 +22,14 @@ p{
 
 Nav h2{
     font-size: 1.5em;
+}
+
+.menu{
+    background-color: #E9BB57;
+
+}
+
+.menu ul{
+    background-color: #ffff;
+    color: #484FB7
 }
