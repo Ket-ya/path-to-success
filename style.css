@@ -23,13 +23,15 @@ p{
 Nav h2{
     font-size: 1.5em;
 }
-
-div.menu{
+#oserv{
+    background-color: #E9BB57;
+}
+#menu{
     background-color: #E9BB57;
 
 }
 
-div.menu ul{
+#menu ul{
     background-color: #ffff;
     color: #484FB7
 }
