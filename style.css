@@ -1,37 +1,332 @@
 @import url(https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kavoon&display=swap);
 
+/* Whole body of site*/
+body{
+    background-color: #6B8FE7;
+    font-family: "inter";
+    height: 100%;
+    width: 50%;
+   padding-inline: 350px;
+
+}
+
+#wholecontent{
+    background-color:#484FB7;
+    height: 100%;
+    width: 100%;
+   /* padding-inline: 30px; */
+}
+
+#ourservices, .prices{
+    /*background-color:#484FB7;
+    height: 100%;
+    width: 100%; */
+    padding-inline: 30px;
+}
+
+
+/*section{
+   width: 50%;
+   justify-content: center;
+} */
+
+p{
+    font-family: "inter";
+}
+
+/* HEADINGS: 1, 2, 3, 4*/
 h1{
     font-family: "Kavoon";
     font-size: 3em;
+    color: #ffff;
+    text-align: center;
 }
 
 h2{
     font-family: "Kavoon";
     font-size: 2em;
+    color: #ffff;
 }
 
 h3{
+    font-family: "inter";
     font-size: 1.5em;
+    color:#E9BB57;
 }
 h4{
+    font-family: "inter";
     font-size: 1.15em;
 }
-p{
-    font-family: inter;
+
+/*MENU AND HEADER */
+
+#headpara {
+    color: #ffff;
+    text-align: center;
 }
 
-Nav h2{
-    font-size: 1.5em;
-}
-#oserv{
-    background-color: #E9BB57;
-}
+
 #menu{
     background-color: #E9BB57;
+    width: 98.7%; 
+    /*padding: 15px; */
+   padding-left: 5px;
+    padding-right:5px ; 
+    padding-bottom:20px ;
+    padding-top:15px ;
+    text-transform: uppercase;
+    font-weight: bold;
+   display: block;
+}
+
+#menutext{
+    color: black;
+    text-align: center;
+    font-style: oblique;
+    margin: 5px;
+    padding: 10px;
+}
+
+nav.ulmenu{ 
+    text-align: center;
+   align-items: center;
+   justify-content: center; 
+}
+#limenu{
+    background-color: #ffff;
+    list-style-type: none;
+    text-align: center;
+    transform: translateX(-15px);
+    color: #484FB7;
+    margin: 5px; 
+  padding: 15px;
+   display:block; 
+   align-content: center;
+} 
+
+/*OUR SERVICES*/
+/*
+Nav h2{
+    font-size: 1.5em;
+} */
+
+        /*Personal development*/
+.personal-development{
+    background-color: #ffff;
+    max-width: 100%;
+    max-height: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    padding-top: 10px;
+    margin-bottom: 15px;
+    border-radius: 10px; 
+    
+}
+
+#pdh1{
+    color:#484FB7;
+    font-weight: bold;
+}
+#pdtext{
+    text-align: left;
+    line-height: 1.5;
+}
+
+
+        /*Career Coaching*/
+.career-coaching{
+    background-color: #ffff;
+    max-width: 100%;
+    max-height: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    padding-top: 10px;
+    margin-bottom: 15px;
+    border-radius: 10px;  
+}
+
+#cch1{
+    color:#484FB7;
+    font-weight: bold;
+}
+#cctext{
+    text-align: left;
+    line-height: 1.5;
+}
+
+        /*Relationship Coaching*/
+.relationship-coaching{
+    background-color: #ffff;
+    max-width: 100%;
+    max-height: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    padding-top: 10px;
+    margin-bottom: 15px;
+    border-radius: 10px; 
+}
+
+#rsh1{
+    color:#484FB7;
+    font-weight: bold;
+}
+#rctext{
+    text-align: left;
+    line-height: 1.5;
+}
+
+        /*Supportive Community*/
+.supportive-community{
+    background-color: #ffff;
+    max-width: 100%;
+    max-height: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    padding-top: 10px;
+    margin-bottom: 15px;
+    border-radius: 10px; 
+}
+
+#sch1{
+    color:#484FB7;
+    font-weight: bold;
+}
+#sctext{
+    text-align: left;
+    line-height: 1.5;
+}
+
+        /*Focused Sessions*/
+.focused-session{
+    background-color: #ffff;
+    max-width: 100%;
+    max-height: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    padding-top: 10px;
+    margin-bottom: 15px;
+    border-radius: 10px;  
+}
+
+#fsh1{
+    color:#484FB7;
+    font-weight: bold;
+}
+#fstext{
+    text-align: left;
+    line-height: 1.5;
+}
+
+        /*Interactive Learning*/
+.interactive-learning{
+    background-color: #ffff;
+    max-width: 100%;
+    max-height: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    padding-top: 10px;
+    margin-bottom: 15px;
+    border-radius: 10px; 
+}
+
+#ilh1{
+    color:#484FB7;
+    font-weight: bold;
+}
+#iltext{
+    text-align: left;
+    line-height: 1.5;
+}
+
+        /*Flexible Learning*/
+.flexible-learning{
+    background-color: #ffff;
+    max-width: 100%;
+    max-height: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    padding-top: 10px;
+    margin-bottom: 15px;
+    border-radius: 10px; 
+}
+
+#flh1{
+    color:#484FB7;
+    font-weight: bold;
+}
+#fltext{
+    text-align: left;
+    line-height: 1.5;
+}
+
+/*nav.ulmenu{
+    color: #484FB7;
+} */
+
+
+/*WHY CHOOSE US*/
+.choose{
+    background-color:#D9526F ;
+    display:flexbox;
+    width: 100%;
+    padding: 5px 30px 15px 30px;
+    margin-left: 15px;
+    transform: translateX(-45px);
+   /* flex-grow: inherit; */
+}
+
+.choose ol{
+    list-style-type: none;
+    box-sizing: border-box;
+   /* flex-flow: column; */
+}
+
+
+#listpa{
+    background-color: #4CA7C0;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 35px;
+    margin: 25px; 
+    text-align: center;
+    position: static;
 
 }
 
-#menu ul{
+#listpr {
+    background-color: #6B8FE7;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 35px;
+    margin: 25px; 
+    text-align: center;
+}
+
+#listse{
+     background-color: #E9BB57;
+    font-weight: bold;
+    border-radius: 10px;
+   padding: 35px;
+   margin: 25px; 
+    text-align: center;
+}
+
+#listfo{
     background-color: #ffff;
-    color: #484FB7
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 35px;
+    margin: 25px; 
+    text-align: center;
+}
+
+#end.h2{
+    text-align: center;
 }
