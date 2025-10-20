@@ -272,31 +272,40 @@ Nav h2{
 
 
 /*WHY CHOOSE US*/
+/*
 .choose{
     background-color:#D9526F ;
-    display:flexbox;
+    display:flexbox; Blocked
     width: 100%;
-    padding: 5px 30px 15px 30px;
+    height: -450%; 
+    padding: 5px 30px 1px 30px;  bloacked
+    padding-top: 5px;
+    padding-right: 30px;
+    padding-left: 30px;
     margin-left: 15px;
     transform: translateX(-45px);
-   /* flex-grow: inherit; */
+    flex-grow: inherit;  blocked
 }
 
 .choose ol{
     list-style-type: none;
-    box-sizing: border-box;
-   /* flex-flow: column; */
+    box-sizing:inherit;
+    flex-flow:row;
 }
+
+
 
 
 #listpa{
     background-color: #4CA7C0;
     font-weight: bold;
     border-radius: 10px;
-    padding: 35px;
-    margin: 25px; 
+    padding: 15px;
+    padding-bottom: 20px;
+    margin: 45px; 
     text-align: center;
     position: static;
+    transform: translateX(-65%);
 
 }
 
@@ -304,29 +313,179 @@ Nav h2{
     background-color: #6B8FE7;
     font-weight: bold;
     border-radius: 10px;
-    padding: 35px;
-    margin: 25px; 
+    padding: 20px;
+    padding-bottom: 35px;
+    margin: 45px; 
     text-align: center;
+    position: static;
+    transform: translate(40%, -160%);
 }
 
 #listse{
      background-color: #E9BB57;
     font-weight: bold;
     border-radius: 10px;
-   padding: 35px;
-   margin: 25px; 
+    padding: 15px;
+    padding-bottom: 20px;
+    margin: 45px; 
     text-align: center;
+    position: static;
+    transform: translate(-65%, -210%);
 }
 
 #listfo{
     background-color: #ffff;
     font-weight: bold;
     border-radius: 10px;
+    padding: 15px;
+    padding-bottom: 35px;
+    margin: 45px; 
+    text-align: center;
+    position: static;
+    transform: translate(40%, -395%);
+}
+ */
+
+ #wcu{
+    background-color:#D9526F;
+    align-content: center;
+ }
+
+ #wcu h2{
+    text-align: left;
+    padding: 15px;
+ }
+
+ #whychooseus{
+    text-align: center;
+    font-weight: bold;
+    table-layout: fixed;
+    /*margin-top: 25px;*/
+    border-spacing: 10px;
+    width: 100%;
+ }
+
+
+
+ #whychooseus td {
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+ }
+
+ 
+
+ #listpa{
+    background-color: #4CA7C0;
+    border-radius: 10px;
+ }
+
+ #listpr{
+    background-color: #6B8FE7;
+    border-radius: 10px;
+ }
+
+ #listse{
+     background-color: #E9BB57;
+     border-radius: 10px;
+ }
+
+ #listfo{
+    background-color: #ffff;
+    border-radius: 10px;
+ }
+
+
+
+ /*PRICING*/
+
+ .prices{
+    width: 250%;
+    padding-bottom: 15px;
+ }
+
+
+
+ .prices table{
+   background-color: #E9BB57; 
+   /*display: inline-block;
+   display:inline-table; */
+   display: flexbox;
+   margin-left: 25px;
+
+ }
+
+ .prices th{
     padding: 35px;
-    margin: 25px; 
+    text-transform: uppercase;
+ } 
+
+ .prices td{
+    background-color: #ffff;
+    padding: 35px;
+ }
+ 
+/*END*/
+
+.end{
+    background-color: #D9526F;
+    padding: 15px;
+}
+
+.end h2{
+    text-align: left;
+}
+
+.end p {
+    color: #ffff;
+    text-align: left;
+    line-height: 1.5em;
+}
+
+button{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 85px;
+    padding-right: 85px;
+    border-radius: 15px;
+    background-color: #ffff;
+    color: black;
+    box-shadow: #1E1E1E;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.schedulenow{
+  width:85%;
+  margin-left: 50px;
+}
+
+
+/*FOOTER*/
+
+
+
+footer{
+    background-color: #484FB7;
+    color: #ffff;
+    padding: 15px;
     text-align: center;
 }
 
-#end.h2{
+#terms{
+    text-decoration: underline;
+}
+
+#foot{
+    margin-left: 150px;
+    padding-right: 5px;
+}  
+
+#foot td{
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 15px;
     text-align: center;
 }
